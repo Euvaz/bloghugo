@@ -1,23 +1,19 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
+    ":automergeBranch",
+    ":automergeDigest",
+    ":dependencyDashboard",
+    ":disableRateLimiting",
+    ":semanticCommits",
     "config:base",
     "docker:enableMajor",
-    ":disableRateLimiting",
-    ":dependencyDashboard",
-    ":semanticCommits",
-    ":automergeDigest",
-    ":automergeBranch",
-    "github>Euvaz/BlogHugo//.github/renovate/autoMerge.json5",
-    "github>Euvaz/BlogHugo//.github/renovate/commitMessage.json5",
-    "github>Euvaz/BlogHugo//.github/renovate/labels.json5",
-    "github>Euvaz/BlogHugo//.github/renovate/semanticCommits.json5",
-    "helpers:pinGitHubActionDigests"
+    "github>Euvaz/bloghugo//.renovate/autoMerge.json",
+    "github>Euvaz/bloghugo//.renovate/commitMessage.json",
+    "github>Euvaz/bloghugo//.renovate/labels.json",
+    "github>Euvaz/bloghugo//.renovate/semanticCommits.json",
+    "Helpers:pinGitHubActionDigests"
   ],
-  "platform": "github",
-  "onboarding": false,
-  "requireConfig": false,
-  "reviewersFromCodeOwners": false,
   "dependencyDashboardTitle": "Renovate Dashboard",
-  "suppressNotifications": ["prIgnoreNotification"],
+  "suppressNotifications": ["prIgnoreNotification"]
 }
