@@ -15,7 +15,5 @@
     "helpers:pinGitHubActionDigests"
   ],
   "dependencyDashboardTitle": "Renovate Dashboard",
-  "suppressNotifications": [
-    "prIgnoreNotification"
-  ]
+  "suppressNotifications": ["prIgnoreNotification"]
 }
