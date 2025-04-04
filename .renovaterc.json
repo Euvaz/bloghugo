@@ -6,7 +6,7 @@
     ":dependencyDashboard",
     ":disableRateLimiting",
     ":semanticCommits",
-    "config:base",
+    "config:recommended",
     "docker:enableMajor",
     "github>Euvaz/bloghugo//.renovate/autoMerge.json",
     "github>Euvaz/bloghugo//.renovate/commitMessage.json",
@@ -15,5 +15,7 @@
     "helpers:pinGitHubActionDigests"
   ],
   "dependencyDashboardTitle": "Renovate Dashboard",
-  "suppressNotifications": ["prIgnoreNotification"]
+  "suppressNotifications": [
+    "prIgnoreNotification"
+  ]
 }
