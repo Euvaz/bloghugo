@@ -12,7 +12,7 @@
     "github>Euvaz/bloghugo//.renovate/commitMessage.json",
     "github>Euvaz/bloghugo//.renovate/labels.json",
     "github>Euvaz/bloghugo//.renovate/semanticCommits.json",
-    "Helpers:pinGitHubActionDigests"
+    "helpers:pinGitHubActionDigests"
   ],
   "dependencyDashboardTitle": "Renovate Dashboard",
   "suppressNotifications": ["prIgnoreNotification"]
